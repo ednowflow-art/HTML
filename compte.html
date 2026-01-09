@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>connexion</title>
+    <style>
+        section{
+             font-family: Arial, sans-serif;
+             background-color: #f2f2f2;
+        }
+        .ADAMA{
+             width: 700px;
+             margin: 40px auto;
+             background: #fff;
+             padding: 20px;
+             border-radius: 5px;
+        }
+        .ADAMA{
+            text-align: center;
+            background-color:white;
+            padding: 12px;
+            border: 5px solid;
+        }
+
+        .info {
+    color: red;
+    padding-left: 6px;
+    margin-bottom: 15px;
+}
+.info{
+    text-align: initial;
+    color: brown;
+     background: rgb(247, 247, 245);
+}
+.h3{
+    text-align: center;
+            background-color: rgb(121, 118, 118);
+            padding: 12px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    padding: 10px;
+    width: 35%;
+}
+
+td {
+    padding: 10px;
+}
+
+input, select {
+    width: 95%;
+    padding: 6px;
+}
+
+.captcha {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 5px;
+    width: 10%;
+    margin-left: 50%;
+}
+
+     #bouton {
+            background-color: white(209, 203, 203, 0.781);
+            margin: 5px;
+            padding: 8px;
+            margin-left: 300px;
+        }
+        .btn-oublie{
+            background-color: rgb(10, 236, 78);
+        }
+        .btn-verifier{
+            background-color: rgb(241, 7, 7);
+        }
+        .cap{
+            background-color: aqua;
+            margin-left: initial;
+
+        }
+    </style>
+<section>
+<div class="ADAMA">
+    <h3>Création de votre compte d'accès</h3>
+
+    <p class="info">
+        • Tous les champs sont obligatoires <br>
+        • Le mot de passe doit contenir 8 caractères minimum avec un mélange de chiffres et de lettres.
+    </p>
+    <Fieldset>
+    <form>
+        <table>
+            <tr>
+                <th>Type d'identifiant :</th>
+                <td>
+                    <select>
+                        <option>Sélectionnez le type d'identifiant</option>
+                        <option>CNI</option>
+                        <option>Passeport</option>
+                        <option>Carte étudiant</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <th>Votre identifiant :</th>
+                <td><input type="text" placeholder="Votre identifiant"></td>
+            </tr>
+
+            <tr>
+                <th>Nom :</th>
+                <td><input type="text" placeholder="Nom de famille"></td>
+            </tr>
+
+            <tr>
+                <th>Prénoms :</th>
+                <td><input type="text" placeholder="Prénoms"></td>
+            </tr>
+
+            <tr>
+                <th>Mot de passe :</th>
+                <td><input type="password" placeholder="Créer un mot de passe"></td>
+            </tr>
+
+            <tr>
+                <th>Confirmation du mot de passe :</th>
+                <td><input type="password" placeholder="Confirmer le mot de passe"></td>
+            </tr>
+
+            <tr>
+                <th>E-mail personnel :</th>
+                <td><input type="email" placeholder="E-mail personnel"></td>
+            </tr>
+
+            <tr>
+                <th>Captcha :</th>
+                <td>
+                    <input type="text" placeholder="Saisissez les caractères">
+                    <div class="captcha">S0Qmh</div>
+                </td>
+            </tr>
+        </table>
+         <button class="cap">captcha</button>
+          </form>
+        <div id="bouton">
+        <div class="divbtm">
+            <button class="btn-oublie">Validé</button>
+            <button class="btn-verifier">Annulé</button>
+        </div>
+        </div>
+    </Fieldset>
+</div>
+
+</section>
+</html>

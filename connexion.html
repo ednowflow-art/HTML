@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>connexion</title>
+    <style>
+        section { 
+            width: 50%;
+            border: 2px solid;
+            border-radius: 5px;
+            margin-left: 25%;
+        }
+        h4{
+            text-align: center;
+            background-color: lightgrey;
+            padding: 12px;
+        }
+        #info {
+            background-color: rgb(207, 237, 248);
+            margin: 5px;
+            color: rgb(113, 203, 238);
+            padding: 12px;
+            border-radius: 5px;
+        }
+        #bouton {
+            background-color: rgba(209, 203, 203, 0.781);
+            margin: 5px;
+            padding: 8px;
+        }
+        input{
+            padding: 6px;
+            border-radius: 5%;
+            width: 80%;
+            margin: 13px;
+        }
+        button{
+            padding: 6px;
+            color: white;
+            border-radius: 5px;
+        }
+        .divbtn button{
+            background-color: rgb(122, 186, 211);
+            border-color: rgb(177, 221, 238);
+        }
+        .divbtn{
+            margin-left: 70%;
+        }
+        .divbtm button{
+            padding: 8px;
+            border: 5px;
+            text-align: center;
+            margin-left: 5%;
+        }
+        /* mot de passe oublié*/
+        .btn-oublie{
+            background-color: orange;
+        }
+        /* verifier autorisation*/
+        .btn-verifier{
+            background-color: rgb(42, 96, 245);
+        }
+        /* Créer un compte*/
+        .btn-creer{
+            background-color: rgb(63, 248, 72);
+            padding: 7px;
+            border-radius: 5%;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h4>Espace étudiants</h4>
+        <div id="info">veuillez renseigner le nom d'utilisateur et le mot de passe</div>
+        <form>
+            <div>
+                <input type="text" placeholder="Nom d'utilisateur">
+            </div>
+            <div>
+                <input type="password" placeholder="mot de passe">
+            </div>
+            <div class="divbtn">
+                <button>Se connecter</button>
+            </div>
+        </form>
+        <div id="bouton">
+        <div class="divbtm">
+            <button class="btn-oublie">Mot de passe oublié</button>
+            <button class="btn-verifier">Verifier autorisation</button>
+            <a href="compte.html" class="btn-creer">Créer un compte</a>
+        </div>
+        </div>
+    </section>
+</body>
+
+</html>
